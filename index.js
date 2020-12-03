@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-tinymce',
+  name: 'ember-cli-tinymce-5',
   contentFor: function(type, config) {
     var content = '';
     if (type === 'head-footer' && config['tinyMCE'] && config['tinyMCE']['load']) {
