@@ -5,8 +5,8 @@ module.exports = function(/* environment, appConfig */) {
   return {
     tinyMCE:{
       load: true,
-      version: 4.4,
-      sriHash: 'sha384-UZSyGLGIxzE8WkhLcUfTE3QaH6CqksfVD81Skbe8PXMP/dnz26QRhvQ0RruUlw9U'
+      version: 5,
+      sriHash: 'sha384-ra+Rko5zfPsL5hsVdGB51A+C68KypswBUQTUkOfeSPx9Lp8yQh1susZ1uIMy9oKx'
     }
   };
 };
