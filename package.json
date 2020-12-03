@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-tinymce",
-  "version": "0.3.3",
-  "description": "The ember WYSIWYG editor powered by tinyMCE",
+  "name": "ember-cli-tinymce-5",
+  "version": "0.5",
+  "description": "The ember WYSIWYG editor powered by tinyMCE ",
   "keywords": [
     "ember-addon",
     "ember",
@@ -52,10 +52,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "http://marucjmar.github.io/ember-cli-tinymce"
+    "demoURL": "https://github.com/phillymatty/ember-cli-tinymce"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marucjmar/ember-cli-tinymce.git"
+    "url": "https://github.com/phillymatty/ember-cli-tinymce"
   }
 }
