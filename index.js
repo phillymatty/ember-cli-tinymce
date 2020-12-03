@@ -6,9 +6,9 @@ module.exports = {
   contentFor: function(type, config) {
     var content = '';
     if (type === 'head-footer' && config['tinyMCE'] && config['tinyMCE']['load']) {
-      var src = "https://cdn.tiny.cloud/1/no-api-key/tinymce/"+ config['tinyMCE']['version'] +"/tinymce.min.js";
-      var sriHash = config['tinyMCE']['sriHash'];
-      content = '<script type="text/javascript" src="' + src + '" integrity="' + sriHash + '" crossorigin="anonymous"></script>';
+        
+      var src = "https://cdn.tiny.cloud/1/"+ config['tinyMCE']['apiKey'] +"/tinymce/"+ config['tinyMCE']['version'] +"/tinymce.min.js";
+      content = '<script type="text/javascript" src="' + src + '"crossorigin="anonymous"></script>';
     }
     return content;
   },

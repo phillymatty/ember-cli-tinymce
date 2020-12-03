@@ -6,7 +6,7 @@ module.exports = function(/* environment, appConfig */) {
     tinyMCE:{
       load: true,
       version: 5,
-      sriHash: 'sha384-ra+Rko5zfPsL5hsVdGB51A+C68KypswBUQTUkOfeSPx9Lp8yQh1susZ1uIMy9oKx'
+      apiKey:'no-api-key',
     }
   };
 };
