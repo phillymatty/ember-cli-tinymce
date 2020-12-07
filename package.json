@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-tinymce-5",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "The ember WYSIWYG editor powered by tinyMCE ",
   "keywords": [
     "ember-addon",
@@ -17,14 +17,18 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phillymatty/ember-cli-tinymce"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0"
+    "ember-cli-babel": "^6.6.0",
+    "tinymce": "^5.6.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -42,10 +46,10 @@
     "ember-disable-prototype-extensions": "^1.1.2",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
+    "ember-modal-dialog": "2.3.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.16.0",
-    "loader.js": "^4.2.3",
-    "ember-modal-dialog": "2.3.0"
+    "loader.js": "^4.2.3"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
@@ -53,9 +57,5 @@
   "ember-addon": {
     "configPath": "tests/dummy/config",
     "demoURL": "https://github.com/phillymatty/ember-cli-tinymce"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/phillymatty/ember-cli-tinymce"
   }
 }

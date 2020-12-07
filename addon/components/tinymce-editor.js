@@ -63,10 +63,9 @@ export default Ember.Component.extend({
     }
 
     run.later( () => {
+        if (this.get('isDestroying') || this.get('isDestroyed')) { return; }
         if (typeof tinymce === 'undefined') { return; }
-        tinymce.init(Ember.assign({}, options, customOptions)).then(() => {
-          this.isLoaded();
-        });
+        tinymce.init(Ember.assign({}, options, customOptions));
       }, 10);
   })),
 
